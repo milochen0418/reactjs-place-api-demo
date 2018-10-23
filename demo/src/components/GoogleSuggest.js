@@ -3,7 +3,9 @@ import React from "react"
 import ReactGoogleMapLoader from "react-google-maps-loader"
 import ReactGooglePlacesSuggest from "../../../src"
 
-const API_KEY = "AIzaSyCI3cDduwloUnVSfREo-6wuRYTMjOHcQjc"
+const API_KEY = "AIzaSyBm7eiOmjgp-LHVQf6u4ujXbE9xaMUBXgc" //key of dev
+//const API_KEY="AIzaSyDuXUhA04tCVEDz5WZ6pTSirnkbdy4hGlk" //key of product
+//The key is from https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete
 class GoogleSuggest extends React.Component {
   state = {
     search: "",
